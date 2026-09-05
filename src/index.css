@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #050505;
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --border-glass: rgba(255, 255, 255, 0.1);
+    --border-subtle: rgba(255, 255, 255, 0.05);
+  }
+
+  body {
+    background-color: #050505;
+    color: #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Sleek scrollbar for dark frosted theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050505;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(16, 185, 129, 0.4);
+  }
+}
+
+/* Frosted Glass Utilities */
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.frosted-header {
+  background-color: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.frosted-sidebar {
+  background-color: rgba(10, 10, 10, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dot-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Animated Dark Background Keyframes */
+@keyframes ambient-glow-1 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.25;
+  }
+  33% {
+    transform: translate(80px, -60px) scale(1.18);
+    opacity: 0.38;
+  }
+  66% {
+    transform: translate(-50px, 70px) scale(0.92);
+    opacity: 0.22;
+  }
+}
+
+@keyframes ambient-glow-2 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.20;
+  }
+  40% {
+    transform: translate(-90px, 60px) scale(1.22);
+    opacity: 0.35;
+  }
+  75% {
+    transform: translate(60px, -45px) scale(0.94);
+    opacity: 0.18;
+  }
+}
+
+@keyframes ambient-glow-3 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.18;
+  }
+  50% {
+    transform: translate(60px, 80px) scale(1.25);
+    opacity: 0.32;
+  }
+}
+
+@keyframes ambient-glow-4 {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.15;
+  }
+  45% {
+    transform: translate(-70px, -50px) scale(1.15);
+    opacity: 0.28;
+  }
+}
+
+@keyframes cyber-scanner-beam {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.22;
+  }
+  90% {
+    opacity: 0.22;
+  }
+  100% {
+    transform: translateY(120vh);
+    opacity: 0;
+  }
+}
+
+@keyframes grid-shimmer {
+  0%, 100% {
+    opacity: 0.05;
+  }
+  50% {
+    opacity: 0.10;
+  }
+}
+
+.animate-glow-1 {
+  animation: ambient-glow-1 18s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+
+.animate-glow-2 {
+  animation: ambient-glow-2 22s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+
+.animate-glow-3 {
+  animation: ambient-glow-3 26s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+
+.animate-glow-4 {
+  animation: ambient-glow-4 20s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+
+.animate-cyber-scanner {
+  animation: cyber-scanner-beam 14s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  will-change: transform, opacity;
+}
+
+.animate-grid-shimmer {
+  animation: grid-shimmer 8s ease-in-out infinite;
+}
+

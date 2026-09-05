@@ -1,0 +1,6 @@
+{
+  "name": "VERITRACE X",
+  "description": "AI Visual Forensics & Verifiable Evidence Intelligence Platform with real-time face detection, reverse-search source discovery, evidence correlation, and EVM blockchain anchoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

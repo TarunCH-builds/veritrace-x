@@ -1,0 +1,606 @@
+{
+  "cases": [
+    {
+      "id": "VT-2026-00002",
+      "title": "forensic image",
+      "createdAt": "2026-09-03T17:13:08.755Z",
+      "updatedAt": "2026-09-03T17:13:17.531Z",
+      "status": "anchored",
+      "evidenceFile": {
+        "originalName": "forensic image.jpeg",
+        "url": "/api/evidence-files/VT-2026-00002_1788455588754_forensic_image.jpeg",
+        "sha256": "30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+        "sizeBytes": 122531,
+        "mimeType": "image/jpeg"
+      },
+      "metadata": {
+        "filename": "forensic image.jpeg",
+        "mimeType": "image/jpeg",
+        "sizeBytes": 122531,
+        "sha256": "30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+        "perceptualHash": "7C24E3FFB7C01000",
+        "colorSpace": "sRGB",
+        "deviceModel": "Forensic Ingestion Terminal",
+        "software": "VeriTrace Ingestion Kernel v2.4",
+        "capturedAt": "2026-09-03T17:13:08.755Z"
+      },
+      "searchResults": [
+        {
+          "id": "osint_wayback_1788455597038_1",
+          "title": "Internet Archive Wayback Machine (Digital Index)",
+          "url": "https://web.archive.org/web/*/30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+          "domain": "archive.org",
+          "snippet": "Cryptographic SHA-256 digest 30ef6bef5cea7f44... verified against historical public snapshot archives.",
+          "provider": "Public OSINT Archive & Registry Gateway",
+          "retrievalTimestamp": "2026-09-03T17:13:17.038Z",
+          "visualSimilarityScore": 92.4,
+          "correlationAssessment": "Strong correlation",
+          "availability": "Accessible",
+          "metadataAvailable": true,
+          "publishedDate": "Historical Public Ledger",
+          "provenanceChain": [
+            "https://web.archive.org/web/*/30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e"
+          ]
+        },
+        {
+          "id": "osint_wikimedia_1788455597038_2",
+          "title": "Wikimedia Commons Public Media Database",
+          "url": "https://commons.wikimedia.org/wiki/Special:Search?search=30ef6bef5cea7f44",
+          "domain": "commons.wikimedia.org",
+          "snippet": "Public domain and Creative Commons media index lookup for perceptual hash 7C24E3FFB7C01000.",
+          "provider": "Public OSINT Archive & Registry Gateway",
+          "retrievalTimestamp": "2026-09-03T17:13:17.038Z",
+          "visualSimilarityScore": 88.7,
+          "correlationAssessment": "Moderate correlation",
+          "availability": "Accessible",
+          "metadataAvailable": true,
+          "publishedDate": "Open Commons Repository",
+          "provenanceChain": [
+            "https://commons.wikimedia.org/wiki/Special:Search?search=30ef6bef5cea7f44"
+          ]
+        }
+      ],
+      "verificationHistory": [],
+      "timeline": [
+        {
+          "id": "ev_ingest_1788455588755",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:08.755Z",
+          "stage": "INGESTION",
+          "title": "Evidence Securely Ingested",
+          "description": "File 'forensic image.jpeg' (119.7 KB) quarantined.",
+          "actor": "Ingestion Service",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_hash_1788455588756",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:08.755Z",
+          "stage": "HASHING",
+          "title": "Cryptographic SHA-256 Computed",
+          "description": "Cryptographic fingerprint: 30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+          "actor": "Cryptographic Subsystem",
+          "hashSnapshot": "30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_meta_1788455588757",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:08.755Z",
+          "stage": "METADATA_EXTRACTION",
+          "title": "Metadata Extracted",
+          "description": "MIME: image/jpeg, Perceptual Hash: 7C24E3FFB7C01000",
+          "actor": "Forensic Metadata Inspector",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_1788455596412_vj73q",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:16.412Z",
+          "stage": "FACE_ANALYSIS",
+          "title": "Face Analysis Completed (1 face detected)",
+          "description": "Model: VeriTrace Standalone Computer Vision Engine. Confidence: 96.7%.",
+          "actor": "Vision Forensics Module",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_1788455596413_dx75s",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:16.413Z",
+          "stage": "EMBEDDING_GEN",
+          "title": "Biometric Embedding Fingerprint Derived",
+          "description": "Fingerprint: 30EF6BEF5CEA7F44438A94D0. Biometric vector secured server-side.",
+          "actor": "Biometric Encoding Pipeline",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_1788455596957_v3dfo",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:16.957Z",
+          "stage": "REVERSE_SEARCH",
+          "title": "Reverse Image Search Initiated",
+          "description": "Executing genuine external source discovery query.",
+          "actor": "Search Provider Adapter",
+          "status": "IN_PROGRESS"
+        },
+        {
+          "id": "ev_1788455597038_es9ue",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:17.038Z",
+          "stage": "REVERSE_SEARCH",
+          "title": "Reverse Search Completed: 2 Candidates Verified",
+          "description": "Provider: Public OSINT Archive & Registry Gateway. Verified against Internet Archive & Wikimedia Commons public ledgers.",
+          "actor": "Search Provider Adapter",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_1788455597229_j0csz",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:17.229Z",
+          "stage": "CORRELATION",
+          "title": "Correlation Formulated: Moderate correlation",
+          "description": "Preliminary signals compiled. External reverse sources limited. ",
+          "actor": "Evidence Correlation Engine",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_1788455597230_x3lde",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:17.230Z",
+          "stage": "MANIFEST_GENERATION",
+          "title": "Canonical Evidence Manifest Compiled",
+          "description": "Deterministic RFC 8785 JSON manifest formatted for cryptographic anchoring.",
+          "actor": "Evidence Manifest Engine",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_1788455597389_z45zs",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:17.389Z",
+          "stage": "BLOCKCHAIN_ANCHOR",
+          "title": "Blockchain Anchoring Dispatched",
+          "description": "Submitting evidence hash and canonical manifest commitment.",
+          "actor": "Blockchain Gateway",
+          "status": "IN_PROGRESS"
+        },
+        {
+          "id": "ev_1788455597530_j4tkz",
+          "caseId": "VT-2026-00002",
+          "timestamp": "2026-09-03T17:13:17.530Z",
+          "stage": "BLOCKCHAIN_ANCHOR",
+          "title": "Evidence Anchored: Block #10043",
+          "description": "Tx: 0xa55470830e8e2fddaef9d5d7f62833b1463a9f04f7f2e535a538e5425e09b379. Network: VeriTrace Cryptographic Anchor Network (Proof-of-Authority)",
+          "actor": "EVM Smart Contract",
+          "status": "SUCCESS"
+        }
+      ],
+      "faceData": {
+        "facesDetected": 1,
+        "confidence": 0.967,
+        "boundingBoxes": [
+          {
+            "ymin": 25,
+            "xmin": 37,
+            "ymax": 69,
+            "xmax": 79,
+            "confidence": 0.967,
+            "label": "Subject (Face #01)"
+          }
+        ],
+        "landmarks": {
+          "leftEye": [
+            39,
+            49
+          ],
+          "rightEye": [
+            39,
+            67
+          ],
+          "nose": [
+            51,
+            58
+          ],
+          "mouth": [
+            61,
+            58
+          ]
+        },
+        "embeddingFingerprint": "30EF6BEF5CEA7F44438A94D0",
+        "embeddingDimension": 512,
+        "attributes": {
+          "poseEstimated": "Slight 3/4 angle (approx. 4.2°)",
+          "lightingQuality": "Ambient balanced",
+          "occlusionScore": "Minimal (<5%)",
+          "sharpness": "Diagnostic grade"
+        }
+      },
+      "correlation": {
+        "overallAssessment": "Moderate correlation",
+        "faceCorrelationScore": 92,
+        "metadataConsistencyScore": 94,
+        "summary": "Preliminary signals compiled. External reverse sources limited. ",
+        "scientificDisclaimer": "Similarity signals support investigation but do not independently establish identity or authenticity."
+      },
+      "manifest": {
+        "caseId": "VT-2026-00002",
+        "evidenceId": "EVD-30EF6BEF",
+        "timestamp": "2026-09-03T17:13:17.229Z",
+        "sha256": "30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+        "perceptualHash": "7C24E3FFB7C01000",
+        "metadata": {
+          "filename": "forensic image.jpeg",
+          "mimeType": "image/jpeg",
+          "sizeBytes": 122531,
+          "sha256": "30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+          "perceptualHash": "7C24E3FFB7C01000",
+          "colorSpace": "sRGB",
+          "deviceModel": "Forensic Ingestion Terminal",
+          "software": "VeriTrace Ingestion Kernel v2.4",
+          "capturedAt": "2026-09-03T17:13:08.755Z"
+        },
+        "faceDetection": {
+          "facesDetected": 1,
+          "confidence": 0.967,
+          "boundingBoxes": [
+            {
+              "ymin": 25,
+              "xmin": 37,
+              "ymax": 69,
+              "xmax": 79,
+              "confidence": 0.967,
+              "label": "Subject (Face #01)"
+            }
+          ],
+          "landmarks": {
+            "leftEye": [
+              39,
+              49
+            ],
+            "rightEye": [
+              39,
+              67
+            ],
+            "nose": [
+              51,
+              58
+            ],
+            "mouth": [
+              61,
+              58
+            ]
+          },
+          "embeddingFingerprint": "30EF6BEF5CEA7F44438A94D0",
+          "embeddingDimension": 512,
+          "attributes": {
+            "poseEstimated": "Slight 3/4 angle (approx. 4.2°)",
+            "lightingQuality": "Ambient balanced",
+            "occlusionScore": "Minimal (<5%)",
+            "sharpness": "Diagnostic grade"
+          }
+        },
+        "sources": [],
+        "correlation": {
+          "overallAssessment": "Moderate correlation",
+          "faceCorrelationScore": 92,
+          "metadataConsistencyScore": 94,
+          "summary": "Preliminary signals compiled. External reverse sources limited. ",
+          "scientificDisclaimer": "Similarity signals support investigation but do not independently establish identity or authenticity."
+        }
+      },
+      "blockchainAnchor": {
+        "network": "VeriTrace Cryptographic Anchor Network (Proof-of-Authority)",
+        "chainId": 1337,
+        "contractAddress": "0xVT0000000000000000000000000000000000A1C8",
+        "transactionHash": "0xa55470830e8e2fddaef9d5d7f62833b1463a9f04f7f2e535a538e5425e09b379",
+        "blockNumber": 10043,
+        "timestamp": "2026-09-03T17:13:17.390Z",
+        "submitterAddress": "0x5Fb6AF49B13631caE6de32dcB3C4789BE61a3D49",
+        "evidenceHash": "0x30ef6bef5cea7f44438a94d022ca57d9445b99a60036191e479efa23a4e93d8e",
+        "manifestHash": "0x15b54a3700dafe6468708cf0529a05b57b7ad3fa6541c6498da0e9c9a7564420",
+        "explorerUrl": "#/ledger?tx=0xa55470830e8e2fddaef9d5d7f62833b1463a9f04f7f2e535a538e5425e09b379",
+        "status": "CONFIRMED",
+        "verificationMode": "CRYPTOGRAPHIC_LOCAL_AUTHORITY"
+      }
+    },
+    {
+      "id": "VT-2026-00042",
+      "title": "Operation Apex: Disinformation Persona Audit",
+      "createdAt": "2026-09-02T14:22:10.000Z",
+      "updatedAt": "2026-09-02T14:35:45.000Z",
+      "status": "anchored",
+      "evidenceFile": {
+        "originalName": "subject_portrait_raw.png",
+        "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+        "sha256": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+        "sizeBytes": 842190,
+        "mimeType": "image/png"
+      },
+      "metadata": {
+        "filename": "subject_portrait_raw.png",
+        "mimeType": "image/png",
+        "sizeBytes": 842190,
+        "width": 1200,
+        "height": 1600,
+        "sha256": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+        "perceptualHash": "A4F298710B5E3C91",
+        "colorSpace": "sRGB",
+        "deviceModel": "Sony Alpha 7 IV",
+        "software": "Sony Image Firmware 2.01",
+        "capturedAt": "2026-08-30T10:14:02Z",
+        "exifData": {
+          "Camera": "Sony ILCE-7M4",
+          "FocalLength": "85mm",
+          "ExposureTime": "1/250s",
+          "ISO": "100"
+        }
+      },
+      "faceData": {
+        "facesDetected": 1,
+        "confidence": 0.987,
+        "boundingBoxes": [
+          {
+            "ymin": 18.2,
+            "xmin": 28.5,
+            "ymax": 62.4,
+            "xmax": 71.8,
+            "confidence": 0.987,
+            "label": "Primary Subject (Face #01)"
+          }
+        ],
+        "landmarks": {
+          "leftEye": [
+            34.5,
+            42.1
+          ],
+          "rightEye": [
+            34.2,
+            58.7
+          ],
+          "nose": [
+            46.8,
+            50.4
+          ],
+          "mouth": [
+            56.1,
+            50.2
+          ]
+        },
+        "embeddingFingerprint": "7A918B220C4F67EE1930D42F",
+        "embeddingDimension": 512,
+        "attributes": {
+          "poseEstimated": "Frontal (yaw: -2.1°, pitch: 1.4°)",
+          "lightingQuality": "High contrast studio key",
+          "occlusionScore": "0% (unobstructed)",
+          "sharpness": "Forensic standard (Nyquist > 0.85)"
+        }
+      },
+      "searchResults": [
+        {
+          "id": "src_01",
+          "title": "Public Profile: Creative Director Portfolio - London, UK",
+          "url": "https://unsplash.com/photos/woman-wearing-black-scoop-neck-shirt-7YVZYZeITc8",
+          "domain": "unsplash.com",
+          "snippet": "High-resolution portrait photography subject verified in public creative repository.",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          "provider": "Google Lens & Visual Web Grounding",
+          "retrievalTimestamp": "2026-09-02T14:26:05.000Z",
+          "visualSimilarityScore": 97.4,
+          "faceSimilarityScore": 96.8,
+          "correlationAssessment": "Strong correlation",
+          "availability": "Accessible",
+          "metadataAvailable": true,
+          "publishedDate": "2023-11-12",
+          "provenanceChain": [
+            "https://unsplash.com/photos/7YVZYZeITc8",
+            "https://cdn.example.org/creative/profile_88.webp"
+          ]
+        },
+        {
+          "id": "src_02",
+          "title": "Design Summit 2024 Speaker Directory",
+          "url": "https://example.org/speakers/directory/sarah-m",
+          "domain": "example.org",
+          "snippet": "Panel speaker on Digital Ethics and Media Authentication.",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          "provider": "Google Lens & Visual Web Grounding",
+          "retrievalTimestamp": "2026-09-02T14:26:12.000Z",
+          "visualSimilarityScore": 92.1,
+          "faceSimilarityScore": 94.2,
+          "correlationAssessment": "Strong correlation",
+          "availability": "Accessible",
+          "metadataAvailable": true,
+          "publishedDate": "2024-04-18"
+        }
+      ],
+      "correlation": {
+        "overallAssessment": "Strong correlation",
+        "faceCorrelationScore": 95.5,
+        "visualPerceptualScore": 94.8,
+        "sourceConsistencyScore": 98,
+        "metadataConsistencyScore": 91.2,
+        "summary": "Visual and biometric signals exhibit strong geometric and perceptual convergence across 2 independent public sources. Cryptographic hash of original ingest confirms integrity.",
+        "scientificDisclaimer": "Similarity signals support investigation but do not independently establish identity or authenticity."
+      },
+      "manifest": {
+        "caseId": "VT-2026-00042",
+        "evidenceId": "EVD-8F31C7",
+        "timestamp": "2026-09-02T14:30:00.000Z",
+        "sha256": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+        "perceptualHash": "A4F298710B5E3C91",
+        "metadata": {
+          "filename": "subject_portrait_raw.png",
+          "mimeType": "image/png",
+          "sizeBytes": 842190,
+          "sha256": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f"
+        },
+        "faceDetection": {
+          "facesDetected": 1,
+          "confidence": 0.987,
+          "boundingBoxes": [],
+          "embeddingFingerprint": "7A918B220C4F67EE1930D42F",
+          "embeddingDimension": 512
+        },
+        "sources": [],
+        "correlation": {
+          "overallAssessment": "Strong correlation",
+          "summary": "Concordance across visual discovery pipelines.",
+          "scientificDisclaimer": "Similarity signals support investigation but do not independently establish identity."
+        }
+      },
+      "blockchainAnchor": {
+        "network": "Ethereum Sepolia (Testnet)",
+        "chainId": 11155111,
+        "contractAddress": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+        "transactionHash": "0x4b7e891c5298ffae30198ca1207865bcde89104fae10928bbcf7654a10294e82",
+        "blockNumber": 5932810,
+        "timestamp": "2026-09-02T14:32:15.000Z",
+        "submitterAddress": "0x19E7E3696f8c8A310f8A24b9176f5789A5364861",
+        "evidenceHash": "0x8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+        "manifestHash": "0x3e18a99427b0811bda3177ce8032dae61c3125d048991bce09f6e91b5c6899f1",
+        "explorerUrl": "https://sepolia.etherscan.io/tx/0x4b7e891c5298ffae30198ca1207865bcde89104fae10928bbcf7654a10294e82",
+        "status": "CONFIRMED",
+        "verificationMode": "LIVE_TESTNET"
+      },
+      "verificationHistory": [
+        {
+          "id": "chk_01",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T15:10:00.000Z",
+          "testedHash": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+          "expectedHash": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+          "match": true,
+          "tamperDetected": false,
+          "details": "Cryptographic SHA-256 matches blockchain block 5932810 commitment exactly.",
+          "verifiedBy": "Lead Forensic Investigator",
+          "blockchainBlock": 5932810
+        }
+      ],
+      "timeline": [
+        {
+          "id": "ev_01",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:22:10.000Z",
+          "stage": "INGESTION",
+          "title": "Evidence Ingested",
+          "description": "Raw image received and quarantined in tamper-evident secure storage.",
+          "actor": "Investigator agent #04",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_02",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:22:11.000Z",
+          "stage": "HASHING",
+          "title": "Cryptographic SHA-256 Generated",
+          "description": "Hash calculated: 8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+          "actor": "VeriTrace Hashing Engine",
+          "hashSnapshot": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_03",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:22:12.000Z",
+          "stage": "METADATA_EXTRACTION",
+          "title": "EXIF & Camera Metadata Extracted",
+          "description": "Parsed Sony ILCE-7M4 metadata, 85mm focal length, timestamp 2026-08-30.",
+          "actor": "Metadata Parser",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_04",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:23:40.000Z",
+          "stage": "FACE_ANALYSIS",
+          "title": "Face Detection Completed",
+          "description": "Single high-fidelity face detected with 98.7% spatial confidence.",
+          "actor": "Vision Forensics Model",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_05",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:24:00.000Z",
+          "stage": "EMBEDDING_GEN",
+          "title": "Biometric Embedding Fingerprint Derived",
+          "description": "512-D normalized vector generated; biometric vector withheld from chain.",
+          "actor": "Embedding Engine",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_06",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:26:15.000Z",
+          "stage": "REVERSE_SEARCH",
+          "title": "Reverse Search Discovered 2 Candidate Sources",
+          "description": "Discovered matching publications across photographic repositories.",
+          "actor": "Search Provider Adapter",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_07",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:28:30.000Z",
+          "stage": "CORRELATION",
+          "title": "Evidence Correlation Formulated",
+          "description": "Strong correlation computed. Similarity signals recorded.",
+          "actor": "Correlation Analysis Module",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_08",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:30:00.000Z",
+          "stage": "MANIFEST_GENERATION",
+          "title": "Canonical Evidence Manifest Compiled",
+          "description": "RFC 8785 deterministic JSON manifest produced and signed.",
+          "actor": "Manifest Engine",
+          "status": "SUCCESS"
+        },
+        {
+          "id": "ev_09",
+          "caseId": "VT-2026-00042",
+          "timestamp": "2026-09-02T14:32:15.000Z",
+          "stage": "BLOCKCHAIN_ANCHOR",
+          "title": "Evidence Anchored on Blockchain",
+          "description": "Tx 0x4b7e...4e82 confirmed in Sepolia block #5932810.",
+          "actor": "Web3 Anchor Service",
+          "status": "SUCCESS"
+        }
+      ]
+    }
+  ],
+  "verificationHistory": [
+    {
+      "id": "chk_01",
+      "caseId": "VT-2026-00042",
+      "timestamp": "2026-09-02T15:10:00.000Z",
+      "testedHash": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+      "expectedHash": "8f31c7e2b9508d0e2c842b10a2f7902d18301c29e7c3b2f518bca48218d99a2f",
+      "match": true,
+      "tamperDetected": false,
+      "details": "Cryptographic SHA-256 matches blockchain block 5932810 commitment exactly.",
+      "verifiedBy": "Lead Forensic Investigator",
+      "blockchainBlock": 5932810
+    }
+  ],
+  "systemLogs": [
+    {
+      "id": "log_1788455588756_c6u0",
+      "caseId": "VT-2026-00002",
+      "operation": "CREATE_CASE",
+      "timestamp": "2026-09-03T17:13:08.756Z",
+      "status": "SUCCESS",
+      "durationMs": 10,
+      "details": "Created case VT-2026-00002"
+    },
+    {
+      "id": "log_sys_01",
+      "operation": "SYSTEM_INITIALIZATION",
+      "timestamp": "2026-09-03T16:01:07.419Z",
+      "status": "SUCCESS",
+      "durationMs": 42,
+      "details": "VeriTrace X Core forensic engine initialized with SQLite/JSON persistence."
+    }
+  ]
+}
