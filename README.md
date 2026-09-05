@@ -465,8 +465,7 @@ Make sure you have the required runtime and package manager installed for the pr
 
 Clone
 
-git clone https://github.com/YOUR-USERNAME/VeriTrace-X.git
-cd VeriTrace-X
+git clone https://github.com/TarunCH-builds/veritrace-x
 
 Install
 
