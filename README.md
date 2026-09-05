@@ -1,324 +1,214 @@
-<div align="center">🔐 VeriTrace X
+🔐 VeriTrace X
 
 AI Visual Forensics & Verifiable Evidence Intelligence Platform
 
-Transforming digital images into structured, analyzable, and cryptographically verifiable evidence.
+Analyze. Correlate. Fingerprint. Verify.
 
-<br/>""AI" (https://img.shields.io/badge/AI-Powered-111827?style=for-the-badge&logo=openai&logoColor=white)" (#)
-""Digital Forensics" (https://img.shields.io/badge/Digital-Forensics-111827?style=for-the-badge&logo=hackthebox&logoColor=white)" (#)
-""Cybersecurity" (https://img.shields.io/badge/Cybersecurity-Platform-111827?style=for-the-badge&logo=shield&logoColor=white)" (#)
-""Blockchain" (https://img.shields.io/badge/Blockchain-Verified-111827?style=for-the-badge&logo=ethereum&logoColor=white)" (#)
-""Evidence Integrity" (https://img.shields.io/badge/Evidence-Integrity-111827?style=for-the-badge)" (#)
+VeriTrace X is an AI-powered visual forensics and evidence intelligence platform designed to help transform digital images into structured, analyzable, and verifiable evidence.
 
-<br/>AI Analysis • Digital Forensics • Evidence Correlation • Cryptographic Integrity • Blockchain Verification
-
-</div>---
-
-🧭 Overview
-
-VeriTrace X is an AI-powered visual forensics and evidence intelligence platform designed to explore how modern technologies can assist in the analysis, organization, integrity verification, and investigation of digital visual evidence.
-
-Instead of treating an uploaded image as simply a file, VeriTrace X treats it as an evidence artifact that can move through an investigation-oriented workflow:
-
-«Ingest → Analyze → Extract → Correlate → Fingerprint → Verify»
-
-The platform combines Artificial Intelligence, Computer Vision, Digital Forensics, Cryptographic Hashing, Evidence Intelligence, and Blockchain-based verification into a unified environment.
-
-The core objective is simple:
-
-Analyze the evidence. Understand the evidence. Verify the evidence.
+The project brings together Artificial Intelligence, Computer Vision, Digital Forensics, Cryptographic Integrity, and Blockchain Verification into a unified investigation-oriented workflow.
 
 ---
 
-🎯 The Problem
+🚀 What is VeriTrace X?
 
-Digital images are increasingly important in investigations, journalism, cybersecurity incidents, fraud analysis, and digital investigations.
+Digital images can become important sources of information during investigations, fraud analysis, cybersecurity incidents, media verification, and research.
 
-However, a visual artifact can raise several questions:
+But analyzing an image is only one part of the problem.
 
-- Is the image authentic?
-- Has the file been modified?
-- What information can be extracted from it?
-- Are there important visual indicators that require investigation?
-- Can multiple pieces of evidence be correlated?
-- How can the integrity of an evidence artifact be demonstrated later?
-- Can investigators maintain a verifiable record of an artifact?
+An investigation may also need to answer:
 
-Traditional image viewing tools answer only a small part of these questions.
+- What information can be extracted from the image?
+- Are there suspicious visual indicators?
+- What metadata is available?
+- Can different pieces of evidence be correlated?
+- Has an evidence artifact changed?
+- Can its integrity be verified later?
 
-VeriTrace X explores a unified approach to digital evidence intelligence by combining AI-assisted analysis with cryptographic and blockchain-based verification mechanisms.
+VeriTrace X explores a unified solution to these challenges.
 
----
+Core Pipeline
 
-⚡ Core Capabilities
-
-🧠 AI-Powered Visual Analysis
-
-Analyze visual artifacts and transform raw image information into structured intelligence.
-
-Potential analysis areas include:
-
-- Object and scene understanding
-- Visual anomaly identification
-- Image classification
-- AI-assisted observations
-- Structured forensic summaries
-- Investigation-oriented insights
-
----
-
-🔍 Digital Forensics
-
-Designed around the principles of digital evidence examination.
-
-The platform can support forensic-oriented inspection such as:
-
-- Artifact examination
-- Metadata analysis
-- File information inspection
-- Image characteristics
-- Potential manipulation indicators
-- Evidence documentation
-
-«Important: AI-generated findings are investigative assistance, not automatic proof of authenticity or manipulation.»
-
----
-
-🧬 Evidence Intelligence
-
-Raw information is converted into a more structured representation that can be easier for investigators to interpret.
-
-The system is designed to organize:
-
-Artifact → Findings → Indicators → Relationships → Verification
-
-This makes complex evidence easier to understand and investigate.
-
----
-
-🔗 Evidence Correlation
-
-Investigations rarely depend on a single artifact.
-
-VeriTrace X is designed to help establish relationships between:
-
-- Images
-- Observations
-- Findings
-- Metadata
-- Evidence identifiers
-- Investigation records
-
-This creates an evidence-centric approach rather than isolated file analysis.
-
----
-
-🛡️ Cryptographic Evidence Integrity
-
-Each evidence artifact can be associated with a cryptographic fingerprint.
-
-A cryptographic hash can act as a compact representation of the artifact's contents.
-
-Example
-
-Evidence File
-      ↓
-Cryptographic Hash
-      ↓
-Unique Evidence Fingerprint
-
-If the underlying file changes, its cryptographic fingerprint should also change.
-
-This provides a practical mechanism for detecting subsequent modifications.
-
----
-
-⛓️ Blockchain Verification
-
-VeriTrace X explores blockchain as an additional layer for evidence verification.
-
-Instead of storing the entire evidence artifact on-chain, a cryptographic fingerprint can be recorded as a tamper-evident reference.
-
-Verification Concept
-
-Evidence Artifact
-       │
-       ▼
-Generate Hash
-       │
-       ▼
-Evidence Fingerprint
-       │
-       ▼
-Blockchain Record
-       │
-       ▼
-Later Verification
-
-This separates:
-
-Evidence Content
-
-from
-
-Evidence Integrity Proof
-
-and avoids unnecessarily placing sensitive files directly on a public blockchain.
-
----
-
-🏗️ System Architecture
-
-                         ┌──────────────────────┐
-                         │     User / Analyst   │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │   VeriTrace X UI     │
-                         │ Investigation Console│
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │  Evidence Ingestion  │
-                         └──────────┬───────────┘
-                                    │
-                    ┌───────────────┼────────────────┐
-                    │               │                │
-                    ▼               ▼                ▼
-             ┌────────────┐  ┌────────────┐  ┌────────────┐
-             │ AI / Vision│  │  Forensics │  │  Metadata  │
-             │  Analysis  │  │  Analysis  │  │ Inspection │
-             └─────┬──────┘  └─────┬──────┘  └─────┬──────┘
-                   │               │                │
-                   └───────────────┼────────────────┘
-                                   ▼
-                         ┌──────────────────────┐
-                         │ Evidence Intelligence│
-                         │   & Correlation      │
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │ Cryptographic Hash   │
-                         │  Evidence Fingerprint│
-                         └──────────┬───────────┘
-                                    │
-                                    ▼
-                         ┌──────────────────────┐
-                         │ Blockchain / Ledger  │
-                         │     Verification     │
-                         └──────────────────────┘
-
----
-
-🔄 Investigation Workflow
-
-01 — Evidence Ingestion
-
-Upload or introduce a digital visual artifact into the investigation workflow.
-
-↓
-
-02 — Artifact Inspection
-
-Collect available file-level and image-level information.
-
-↓
-
-03 — AI Analysis
-
-Run AI-assisted visual analysis to generate structured observations.
-
-↓
-
-04 — Forensic Examination
-
-Inspect metadata, characteristics, and potential indicators relevant to further investigation.
-
-↓
-
-05 — Evidence Correlation
-
-Connect observations and artifacts to build a broader evidence context.
-
-↓
-
-06 — Cryptographic Fingerprinting
-
-Generate a cryptographic hash representing the artifact.
-
-↓
-
-07 — Verification
-
-Record or compare the fingerprint through the verification layer.
-
-↓
-
-08 — Investigation Record
-
-Present the resulting intelligence in a centralized investigation interface.
+Evidence → AI Analysis → Forensic Intelligence → Correlation → Cryptographic Fingerprint → Verification
 
 ---
 
 ✨ Key Features
 
-Feature| Purpose
-🧠 AI Visual Analysis| Extract intelligent observations from images
-🔍 Forensic Inspection| Examine digital artifact characteristics
-🧬 Evidence Intelligence| Convert raw information into structured findings
-🔗 Evidence Correlation| Connect related artifacts and observations
-🔐 Cryptographic Hashing| Create evidence fingerprints
-⛓️ Blockchain Verification| Provide tamper-evident verification records
-📊 Investigation Dashboard| Centralize forensic information
-📁 Evidence Workflow| Organize analysis around evidence artifacts
-🛡️ Integrity Layer| Help detect changes to previously fingerprinted artifacts
+🧠 AI-Powered Image Analysis
+
+Use AI-assisted visual analysis to extract meaningful information from digital images.
+
+The system is designed to support:
+
+- Visual understanding
+- Object and scene analysis
+- Image classification
+- AI-assisted observations
+- Structured analysis results
 
 ---
 
-🧪 Example Investigation Flow
+🔍 Digital Forensics
 
-Consider a suspicious image submitted during an investigation.
+Analyze digital artifacts from a forensic perspective.
 
-                    Suspicious Image
-                           │
-                           ▼
-                  Evidence Ingestion
-                           │
-                           ▼
-                   Metadata Inspection
-                           │
-                           ▼
-                    AI Visual Analysis
-                           │
-                           ▼
-                  Forensic Indicators
-                           │
-                           ▼
-                   Evidence Correlation
-                           │
-                           ▼
-                  SHA-256 Fingerprint
-                           │
-                           ▼
-                Blockchain Verification
-                           │
-                           ▼
-                Investigation Dashboard
+Capabilities can include:
 
-The investigator can then use the generated information as a starting point for deeper examination.
+- Image inspection
+- File information analysis
+- Metadata examination
+- Forensic indicators
+- Evidence documentation
 
 ---
 
-🔐 Security & Integrity Philosophy
+🧬 Evidence Intelligence
 
-VeriTrace X is designed around a simple principle:
+Convert raw artifact information into structured investigation data.
 
-«Digital evidence should be analyzed without losing sight of its integrity.»
+Instead of presenting isolated results, VeriTrace X organizes information around an evidence-centric workflow.
 
-The project therefore separates three important concepts:
+Artifact → Findings → Indicators → Intelligence
+
+---
+
+🔗 Evidence Correlation
+
+Investigations can involve multiple digital artifacts.
+
+VeriTrace X is designed to help establish relationships between:
+
+- Images
+- Findings
+- Observations
+- Metadata
+- Evidence identifiers
+- Investigation records
+
+This creates a more connected view of an investigation.
+
+---
+
+🔐 Cryptographic Evidence Fingerprinting
+
+A digital artifact can be represented using a cryptographic hash.
+
+Evidence File → Hash Function → Evidence Fingerprint
+
+If the contents of the file change, its cryptographic fingerprint should also change.
+
+This provides a mechanism for checking whether a previously fingerprinted artifact has been modified.
+
+---
+
+⛓️ Blockchain-Based Verification
+
+VeriTrace X explores blockchain as an additional evidence-integrity layer.
+
+Rather than placing the complete evidence file on-chain, a cryptographic fingerprint can be recorded as a verifiable reference.
+
+Evidence → Hash → Blockchain Record → Later Verification
+
+This approach separates the evidence from its integrity record.
+
+---
+
+🏗️ Architecture
+
+                    ┌───────────────────────┐
+                    │      Investigator     │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │     VeriTrace X UI    │
+                    │ Investigation Console │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │  Evidence Ingestion   │
+                    └───────────┬───────────┘
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+             ▼                  ▼                  ▼
+       ┌───────────┐      ┌───────────┐      ┌───────────┐
+       │ AI / CV   │      │ Forensics │      │ Metadata  │
+       │ Analysis  │      │ Analysis  │      │ Analysis  │
+       └─────┬─────┘      └─────┬─────┘      └─────┬─────┘
+             │                  │                  │
+             └──────────────────┼──────────────────┘
+                                ▼
+                    ┌───────────────────────┐
+                    │ Evidence Intelligence │
+                    │    & Correlation      │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │ Cryptographic Hashing │
+                    └───────────┬───────────┘
+                                │
+                                ▼
+                    ┌───────────────────────┐
+                    │ Blockchain Verification│
+                    └───────────────────────┘
+
+---
+
+🔄 Investigation Workflow
+
+01 — INGEST
+
+Upload or introduce a digital image into the investigation workflow.
+
+↓
+
+02 — ANALYZE
+
+Perform AI-assisted visual analysis and artifact inspection.
+
+↓
+
+03 — EXTRACT
+
+Extract useful information, observations, metadata, and forensic indicators.
+
+↓
+
+04 — CORRELATE
+
+Connect findings and related artifacts to build investigation context.
+
+↓
+
+05 — FINGERPRINT
+
+Generate a cryptographic fingerprint for the evidence artifact.
+
+↓
+
+06 — VERIFY
+
+Use the verification layer to check the recorded fingerprint.
+
+↓
+
+07 — DOCUMENT
+
+Present the investigation information in a centralized interface.
+
+---
+
+🛡️ Why VeriTrace X?
+
+VeriTrace X is built around a simple principle:
+
+«Digital evidence should not only be analyzed — its integrity should also be considered.»
+
+The platform separates three different concepts:
 
 Analysis
 
@@ -326,147 +216,220 @@ What can we learn from the artifact?
 
 Integrity
 
-Can we determine whether the artifact changed?
+Has the artifact changed?
 
 Verification
 
-Can we independently verify the recorded fingerprint?
+Can the recorded fingerprint be independently checked?
 
-This separation helps prevent a common mistake:
+This distinction is important.
 
-AI analysis ≠ authenticity proof
+AI analysis does not automatically prove authenticity.
 
-AI can provide useful investigative signals, while cryptographic techniques can provide file-integrity verification.
+AI can provide useful investigative signals, while cryptographic hashing can provide a mechanism for verifying file integrity.
 
 ---
 
-🧰 Technology Stack
+🧰 Technology Focus
 
-Depending on the deployed configuration, VeriTrace X brings together technologies and concepts across multiple engineering domains.
+VeriTrace X combines concepts from several engineering domains.
 
 Artificial Intelligence
 
 - Computer Vision
 - AI-assisted image analysis
-- Machine Learning concepts
-- Structured intelligence extraction
+- Machine Learning
+- Intelligent information extraction
 
 Cybersecurity
 
 - Digital Forensics
-- Evidence integrity
-- Cryptographic hashing
+- Evidence Integrity
+- Cryptographic Hashing
 - Security-oriented workflows
 
 Blockchain
 
-- Smart-contract concepts
-- On-chain verification
-- Transaction-based integrity records
-- Decentralized verification principles
+- Blockchain verification
+- Smart contracts
+- On-chain fingerprints
+- Decentralized verification
 
-Application Layer
+Software Engineering
 
-- Modern Web Technologies
+- Web application development
+- API integration
 - Interactive dashboards
-- API-driven architecture
-- Evidence management workflows
+- Evidence-oriented data workflows
 
 ---
 
-📊 Why This Project Matters
+📊 Feature Overview
 
-VeriTrace X is more than an image-analysis interface.
-
-It demonstrates how several emerging technologies can work together to address a real-world problem:
-
-AI
- │
- ├── Understand
- │
- ▼
-Digital Forensics
- │
- ├── Examine
- │
- ▼
-Evidence Intelligence
- │
- ├── Correlate
- │
- ▼
-Cryptography
- │
- ├── Fingerprint
- │
- ▼
-Blockchain
- │
- └── Verify
-
-This combination creates an interesting intersection between:
-
-AI × Cybersecurity × Digital Forensics × Blockchain × Trustworthy Computing
+Capability| Purpose
+🧠 AI Analysis| Extract visual intelligence
+🔍 Forensic Analysis| Examine digital artifacts
+🧬 Evidence Intelligence| Structure investigation findings
+🔗 Evidence Correlation| Connect related evidence
+🔐 Cryptographic Hashing| Generate evidence fingerprints
+⛓️ Blockchain Verification| Verify recorded fingerprints
+📊 Investigation Dashboard| Centralize investigation data
+🛡️ Integrity Layer| Help identify artifact changes
 
 ---
 
-👨‍💻 Engineering Highlights
+🎥 Project Demo
 
-Building VeriTrace X involved thinking beyond individual features and focusing on an end-to-end system.
+«Add your project demo video or GIF here.»
 
-Key engineering challenges
+Recommended demo sequence:
 
-- Designing an evidence-centric workflow
-- Connecting AI analysis with forensic concepts
-- Representing complex investigation information
-- Maintaining a clear separation between analysis and verification
-- Implementing cryptographic evidence fingerprints
-- Exploring blockchain-backed verification
-- Designing a dashboard for technically complex information
-- Creating a scalable architecture for future forensic capabilities
+1. Upload evidence
+2. Run AI analysis
+3. Inspect forensic information
+4. Review findings
+5. Generate evidence hash
+6. Verify evidence integrity
+7. Display investigation results
 
 ---
 
-🚀 Future Roadmap
+📸 Screenshots
 
-VeriTrace X is designed to evolve into a broader digital evidence intelligence platform.
+Add screenshots of the major parts of the platform here.
+
+Investigation Dashboard
+
+"Add screenshot here"
+
+AI Analysis
+
+"Add screenshot here"
+
+Evidence Details
+
+"Add screenshot here"
+
+Verification
+
+"Add screenshot here"
+
+Blockchain Record
+
+"Add screenshot here"
+
+---
+
+🧪 Example Evidence Pipeline
+
+                 DIGITAL IMAGE
+                       │
+                       ▼
+               Evidence Ingestion
+                       │
+                       ▼
+                AI Visual Analysis
+                       │
+                       ▼
+               Forensic Examination
+                       │
+                       ▼
+              Evidence Intelligence
+                       │
+                       ▼
+               Evidence Correlation
+                       │
+                       ▼
+                SHA-256 Fingerprint
+                       │
+                       ▼
+             Blockchain Verification
+                       │
+                       ▼
+              Investigation Record
+
+---
+
+🔐 Evidence Integrity Model
+
+A simplified integrity workflow:
+
+Original Artifact
+       │
+       ▼
+   SHA-256 Hash
+       │
+       ▼
+Evidence Fingerprint
+       │
+       ▼
+Recorded Reference
+       │
+       ▼
+Future Verification
+       │
+       ▼
+Compare Fingerprints
+
+If the fingerprints match, the artifact contents are consistent with the fingerprinted version.
+
+If they differ, the artifact should be treated as changed and investigated further.
+
+---
+
+🌍 Potential Applications
+
+VeriTrace X explores potential applications in:
+
+- 🕵️ Digital investigations
+- 🛡️ Cybersecurity
+- 🚨 Fraud analysis
+- 📰 Media verification
+- 🔬 Digital forensics research
+- ⚖️ Digital evidence workflows
+- 🏢 Enterprise security
+- 🤖 AI-assisted investigations
+
+---
+
+🚀 Roadmap
 
 🔬 Advanced Forensics
 
-- [ ] Advanced image manipulation detection
+- [ ] Image manipulation detection
 - [ ] Deepfake detection
 - [ ] AI-generated image detection
 - [ ] Error Level Analysis
-- [ ] Noise pattern analysis
+- [ ] Noise analysis
 - [ ] Image provenance analysis
 
-🧾 Evidence Intelligence
+🧬 Evidence Intelligence
 
-- [ ] Automated forensic report generation
-- [ ] Evidence timeline generation
-- [ ] Advanced evidence relationship graphs
+- [ ] Automated forensic reports
+- [ ] Evidence timelines
+- [ ] Evidence relationship graphs
 - [ ] Case management
-- [ ] Evidence tagging and classification
+- [ ] Advanced evidence tagging
 
 🌐 Investigation Intelligence
 
-- [ ] Reverse-image investigation integrations
+- [ ] Reverse-image investigation
 - [ ] Source intelligence
 - [ ] Cross-artifact correlation
 - [ ] Automated anomaly detection
 
-⛓️ Trust & Verification
+⛓️ Verification
 
 - [ ] Expanded blockchain verification
-- [ ] Smart-contract-based evidence registry
+- [ ] Smart-contract evidence registry
 - [ ] Verifiable evidence certificates
-- [ ] Stronger chain-of-custody mechanisms
+- [ ] Advanced chain-of-custody support
 
-🔐 Security
+🔒 Security
 
 - [ ] Role-based access control
 - [ ] Secure evidence storage
-- [ ] Audit logs
+- [ ] Audit logging
 - [ ] Encrypted evidence handling
 - [ ] Multi-user investigation environments
 
@@ -476,145 +439,95 @@ VeriTrace X is designed to evolve into a broader digital evidence intelligence p
 
 VeriTrace-X/
 │
-├── frontend/              # User interface & investigation dashboard
-│
-├── backend/               # Application/API services
-│
-├── ai/                    # AI / visual analysis components
-│
-├── forensic/              # Forensic analysis utilities
-│
-├── blockchain/            # Blockchain verification components
-│
-├── contracts/             # Smart contracts (if applicable)
-│
+├── frontend/              # Frontend / user interface
+├── backend/               # Backend / API services
+├── ai/                    # AI and visual analysis
+├── forensic/              # Forensic analysis components
+├── blockchain/            # Blockchain integration
+├── contracts/             # Smart contracts
 ├── public/                # Static assets
-│
 ├── docs/                  # Documentation
+├── tests/                 # Testing
 │
-├── tests/                 # Test suites
-│
-├── .env.example           # Environment configuration template
+├── .env.example           # Environment configuration
 ├── package.json
 └── README.md
 
-«Directory names may vary depending on the current implementation.»
+«Update the structure above to match the actual folders in your repository.»
 
 ---
 
 ⚙️ Getting Started
 
-1. Clone the Repository
+Prerequisites
+
+Make sure you have the required runtime and package manager installed for the project.
+
+Clone
 
 git clone https://github.com/YOUR-USERNAME/VeriTrace-X.git
 cd VeriTrace-X
 
-2. Install Dependencies
+Install
 
 npm install
 
-3. Configure Environment Variables
+Environment Configuration
 
-Create a ".env" file based on ".env.example".
+Create a ".env" file using ".env.example" as a reference.
 
-# AI configuration
 AI_API_KEY=your_api_key
-
-# Blockchain configuration
 BLOCKCHAIN_RPC_URL=your_rpc_url
 CONTRACT_ADDRESS=your_contract_address
-
-# Application configuration
 DATABASE_URL=your_database_url
 
-Never commit real API keys, private keys, wallet seed phrases, or sensitive credentials to GitHub.
+Never commit API keys, private keys, seed phrases, or other sensitive credentials.
 
-4. Start the Development Server
+Run
 
 npm run dev
 
-5. Open the Application
-
-http://localhost:3000
+Open the local application using the URL provided by your development server.
 
 ---
 
-🧪 Testing
+🧪 Testing & Build
 
-Run the project's available validation and test commands:
+Run the project's available tests:
 
 npm run test
 
-For TypeScript projects:
+Type-check the project when applicable:
 
 npm run typecheck
 
-For production builds:
+Create a production build:
 
 npm run build
 
----
-
-🌍 Potential Applications
-
-VeriTrace X explores potential applications across:
-
-- 🕵️ Digital investigations
-- 🛡️ Cybersecurity operations
-- 🚨 Fraud investigation
-- 📰 Media verification
-- ⚖️ Digital evidence workflows
-- 🔬 Forensic research
-- 🏢 Enterprise security
-- 🤖 AI-assisted investigation systems
+«Use only the commands that are actually defined in your project's "package.json".»
 
 ---
 
 ⚠️ Responsible Use
 
-VeriTrace X is intended as a research, educational, and investigative-assistance platform.
+VeriTrace X is intended for educational, research, development, and investigative-assistance purposes.
 
 AI-generated findings should not automatically be treated as definitive forensic conclusions.
 
-For high-stakes investigations, results should be independently validated using appropriate forensic procedures, qualified experts, and legally applicable standards.
+For high-stakes investigations, results should be independently validated using appropriate forensic methodologies, qualified experts, and applicable legal requirements.
 
-Blockchain verification demonstrates the integrity of a recorded fingerprint; it does not, by itself, prove that the underlying evidence is authentic, truthful, or admissible.
-
----
-
-🏆 Project Vision
-
-The long-term vision of VeriTrace X is to explore a future where digital evidence can be:
-
-Intelligently analyzed.
-
-Structurally understood.
-
-Cryptographically fingerprinted.
-
-Independently verified.
-
-And ultimately:
-
-Trusted.
+Blockchain verification can help demonstrate the integrity of a recorded fingerprint, but it does not by itself prove that the underlying artifact is authentic, truthful, or legally admissible.
 
 ---
 
 🤝 Contributing
 
-Contributions, ideas, research discussions, and improvements are welcome.
+Contributions, ideas, improvements, and research discussions are welcome.
 
-If you would like to contribute:
-
-# Fork the repository
-
-# Create a feature branch
 git checkout -b feature/your-feature
-
-# Commit your changes
+git add .
 git commit -m "Add: your feature"
-
-# Push the branch
 git push origin feature/your-feature
 
 Then open a Pull Request.
@@ -623,9 +536,7 @@ Then open a Pull Request.
 
 📜 License
 
-This project is intended for educational, research, and development purposes.
-
-Add the appropriate license file to the repository based on your intended usage and distribution requirements.
+Add the license appropriate for your project's intended use and distribution.
 
 ---
 
@@ -635,7 +546,7 @@ Tarun C H
 
 B.Tech — Information Science Engineering
 
-Interested in building technology at the intersection of:
+Interested in building practical systems at the intersection of:
 
 Artificial Intelligence • Cybersecurity • Digital Forensics • Blockchain • Software Engineering
 
@@ -643,10 +554,10 @@ Artificial Intelligence • Cybersecurity • Digital Forensics • Blockchain �
 
 <div align="center">🔐 VeriTrace X
 
-Analyze the Evidence.
-Understand the Evidence.
-Verify the Evidence.
+Analyze the Evidence. Understand the Evidence. Verify the Evidence.
 
-<br/>⭐ If you find this project interesting, consider starring the repository.
+<br>Built with curiosity, engineering, and a focus on trustworthy digital evidence.
+
+⭐ Star the repository if you find the project interesting.
 
 </div>
