@@ -1,20 +1,53 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🔐 VERITRACE X
+
+### AI Visual Forensics & Verifiable Evidence Intelligence Platform
+
+**Transforming digital images into structured, analyzable and cryptographically verifiable evidence.**
+
+<br/>
+
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI%20Vision-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
+[![Ethereum](https://img.shields.io/badge/EVM-Blockchain-627EEA?logo=ethereum&logoColor=white)](https://ethereum.org/)
+[![Express](https://img.shields.io/badge/Express-API-000000?logo=express&logoColor=white)](https://expressjs.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+<br/>
+
+**AI Analysis • Digital Forensics • Evidence Correlation • Cryptographic Integrity • Blockchain Verification**
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🧭 Overview
 
-View your app in AI Studio: https://ai.studio/apps/fc6f6358-99a5-48f8-ae9c-0e4e196c9e0e
+**VeriTrace X** is an AI-powered visual forensics and evidence intelligence platform designed to help investigators analyze, correlate and verify digital image evidence.
 
-## Run Locally
+Instead of treating an uploaded image as simply a file, VeriTrace X builds a structured **evidence lifecycle** around it:
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+IMAGE
+  ↓
+EVIDENCE INGESTION
+  ↓
+CRYPTOGRAPHIC FINGERPRINTING
+  ↓
+AI VISUAL / FACE ANALYSIS
+  ↓
+WEB SOURCE DISCOVERY
+  ↓
+CROSS-CASE CORRELATION
+  ↓
+EVIDENCE MANIFEST
+  ↓
+BLOCKCHAIN / CRYPTOGRAPHIC ANCHOR
+  ↓
+INTEGRITY VERIFICATION
+  ↓
+FORENSIC REPORT
